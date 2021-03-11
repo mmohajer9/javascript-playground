@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/vazir-font/dist/font-face.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>تایمر / جاوا اسکریپت</title>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1 class="title">تایمری فقط برای تمرین</h1>
+        <div class="timer">
+            <div class="circle circle-outline">
+                <div class="numbers">
+                    <p class="input-panel">
+                        <input type="number" class="input-area input-hour"> :
+                        <input type="number" class="input-area input-minute"> :
+                        <input type="number" class="input-area input-second">
+                    </p>
+                    <span class="number hour">0</span><span class="colon">:</span>
+                    <span class="number minute">0</span><span class="colon">:</span>
+                    <span class="number second">0</span>
+                    
+                </div>
+                <button class="submit-btn-start fas fa-play"></button>
+                <button class="submit-btn-stop fas fa-stop"></button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="src/script.js"></script>
+</body>
+</html>
