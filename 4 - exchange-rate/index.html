@@ -10,5 +10,27 @@
     <script src="script.js" defer type="module"></script>
     <title>Exchange Rate Calculator</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="logo"></div>
+      <div class="title">Exchange Rate Calculator</div>
+      <div class="caption">
+        Choose the currency and the amounts to get the exchange rate
+      </div>
+      <div class="src">
+        <select name="src-selector" id="src-currency">
+          <!-- <option value="">title/option> -->
+        </select>
+        <input class="cur-input" value="0" type="number" name="src-input" id="src-amount" />
+      </div>
+      <div class="info">
+        <button class="swap">Swap</button>
+        <div class="calculation">1 USD = 0.89 EUR</div>
+      </div>
+      <div class="dst">
+        <select name="dst-selector" id="dst-currency"></select>
+        <input class="cur-input" value="0" type="number" name="dst-input" id="dst-amount" />
+      </div>
+    </div>
+  </body>
 </html>
