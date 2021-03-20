@@ -1,1 +1,4 @@
-import { createRipple } from "./utility.js";
+import App from "./app.js";
+
+const app = new App();
+

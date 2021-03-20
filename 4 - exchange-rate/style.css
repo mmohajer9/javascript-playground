@@ -5,7 +5,7 @@
 
 body {
   background-color: var(--bg-color);
-  font-family: 'Roboto' ,Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -66,10 +66,42 @@ body {
   background-color: var(--bg-color);
   border: none;
   transform: scale(1.5);
-  padding: .3rem 0;
+  padding: 0.3rem 0;
+  border-radius: 4px;
 }
 
-.cur-input:hover , .cur-input:focus {
+.cur-input:hover,
+.cur-input:focus {
+  background-color: #fff;
+}
+
+.src select {
+  width: 4rem;
+  text-align: right;
+  background-color: var(--bg-color);
+  border: none;
+  transform: scale(1.5);
+  padding: 0.3rem 0;
+  border-radius: 4px;
+}
+
+.src select:hover,
+.src select:active {
+  background-color: #fff;
+}
+
+.dst select {
+  width: 4rem;
+  text-align: right;
+  background-color: var(--bg-color);
+  border: none;
+  transform: scale(1.5);
+  padding: 0.3rem 0;
+  border-radius: 4px;
+}
+
+.dst select:hover,
+.dst select:active {
   background-color: #fff;
 }
 
@@ -80,13 +112,14 @@ body {
   color: #fff;
   background-color: var(--text-color);
   padding: 1rem 2rem;
-  font-family: 'Roboto' ,Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   outline: 0;
   border: 0;
   border-radius: 0.25rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transform: translate(-15px);
 }
 
 @keyframes ripple {
